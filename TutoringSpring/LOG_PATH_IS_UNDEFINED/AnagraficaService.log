@@ -1,0 +1,112 @@
+18:34:42.382 [main] INFO  node.Application - Starting Application using Java 11.0.12 on MSI with PID 28548 (D:\Perigea\slide\JavaEE\workspaceJavaEE\MySpringProject\target\classes started by aregu in D:\Perigea\slide\JavaEE\workspaceJavaEE\MySpringProject)
+18:34:42.384 [main] INFO  node.Application - No active profile set, falling back to default profiles: default
+18:34:43.101 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:34:43.137 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+18:34:43.469 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+18:34:43.475 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+18:34:43.475 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:34:43.477 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+18:34:43.565 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:34:43.566 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1152 ms
+18:34:43.737 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:34:43.766 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+18:34:43.839 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:34:43.907 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:34:43.992 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:34:44.003 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+18:34:44.573 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:34:44.581 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:34:44.876 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:34:45.000 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+18:34:45.264 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+18:34:45.301 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+18:34:45.302 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+18:34:45.313 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+18:34:45.320 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+18:34:45.429 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+18:34:45.454 [main] INFO  node.Application - Started Application in 3.373 seconds (JVM running for 4.279)
+18:38:11.123 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:38:11.124 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:38:11.125 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+18:39:00.614 [http-nio-9091-exec-4] INFO  node.controller.RuoloController - getListRuoli - START
+18:39:00.715 [http-nio-9091-exec-4] INFO  node.controller.RuoloController - getListRuoli - response of count : 0
+18:39:23.766 [http-nio-9091-exec-8] INFO  node.controller.RuoloController - getListRuoli - START
+18:39:23.768 [http-nio-9091-exec-8] INFO  node.controller.RuoloController - getListRuoli - response of count : 0
+18:49:41.953 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+18:49:42.434 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:49:42.437 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:49:42.447 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+19:56:03.513 [main] INFO  node.Application - Starting Application using Java 11.0.12 on MSI with PID 19820 (D:\Perigea\slide\Perigea Tutoring\JavaEE\workspaceJavaEE\MySpringProject\target\classes started by aregu in D:\Perigea\slide\Perigea Tutoring\JavaEE\workspaceJavaEE\MySpringProject)
+19:56:03.515 [main] INFO  node.Application - No active profile set, falling back to default profiles: default
+19:56:04.199 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:56:04.235 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+19:56:04.550 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+19:56:04.556 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+19:56:04.556 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:56:04.557 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+19:56:04.645 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:56:04.645 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1101 ms
+19:56:04.814 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+19:56:04.842 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+19:56:04.915 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19:56:04.978 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+19:56:05.057 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+19:56:05.068 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+19:56:05.649 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+19:56:05.657 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:56:05.951 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:56:06.070 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+19:56:06.325 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+19:56:06.362 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+19:56:06.363 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+19:56:06.373 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+19:56:06.380 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+19:56:06.480 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+19:56:06.505 [main] INFO  node.Application - Started Application in 3.29 seconds (JVM running for 4.182)
+19:56:18.154 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:56:18.156 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+19:56:18.157 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+09:39:17.502 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h42m42s328ms874µs800ns).
+09:52:13.148 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+09:52:13.586 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:52:13.590 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+09:52:13.599 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:07:32.056 [main] INFO  node.Application - Starting Application using Java 11.0.12 on MSI with PID 6192 (D:\Perigea\slide\Perigea Tutoring\JavaEE\workspaceJavaEE\MySpringProject\target\classes started by aregu in D:\Perigea\slide\Perigea Tutoring\JavaEE\workspaceJavaEE\MySpringProject)
+18:07:32.058 [main] INFO  node.Application - No active profile set, falling back to default profiles: default
+18:07:32.858 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:07:32.901 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+18:07:33.261 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+18:07:33.267 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+18:07:33.267 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:07:33.268 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+18:07:33.377 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:07:33.378 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1282 ms
+18:07:33.576 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:07:33.611 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+18:07:33.693 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:07:33.764 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:07:33.866 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:07:33.877 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+18:07:34.469 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:07:34.477 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:07:34.757 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:07:34.881 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+18:07:35.149 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+18:07:35.170 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+18:07:35.170 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+18:07:35.180 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+18:07:35.187 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+18:07:35.296 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+18:07:35.322 [main] INFO  node.Application - Started Application in 3.574 seconds (JVM running for 4.549)
+18:08:58.760 [http-nio-9091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:08:58.761 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:08:58.762 [http-nio-9091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+00:02:43.880 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h20m37s349ms26µs500ns).
+11:15:39.214 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h54m55s46ms253µs600ns).
+08:43:17.756 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h13m28s256ms402µs200ns).
+21:53:13.477 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m13s138ms189µs800ns).
+08:42:48.218 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h36m32s598ms56µs800ns).
+15:41:42.425 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+15:41:42.857 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:41:42.867 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:41:42.875 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
